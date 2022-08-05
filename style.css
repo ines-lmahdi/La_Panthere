@@ -29,6 +29,11 @@ a:hover {
     font-size: 20px;
     font-weight: 100;
 }
+
+.citation_realisation p{
+    font-size: 22px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
