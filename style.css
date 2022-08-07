@@ -107,7 +107,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /*background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 
@@ -698,7 +698,14 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+#bloc-8 .col-sm-12 p{
+    font-weight: bold;
+}
+#bloc-5-cta h2{
+    font-weight: bold;
 }
 
 .tight-width-whitespace {
@@ -843,7 +850,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
