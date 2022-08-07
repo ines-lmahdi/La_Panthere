@@ -17,6 +17,26 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+#menu-accessibilite{
+    position: absolute;
+    top:-10em;
+    z-index: 100;
+    width: 100%;
+}
+#menu-accessibilite a{
+    background-color: #FFFFFF;
+    font-weight: 700;
+    position:absolute;
+    left:0;
+    right: 0;
+    text-align: center;
+    padding: 0.5em 0;
+}
+#menu-accessibilite a:hover,
+#menu-accessibilite a:focus{
+    top:10em;
+    text-decoration: none;
+}
 .slogan p{
     font-size: 20px;
 }
