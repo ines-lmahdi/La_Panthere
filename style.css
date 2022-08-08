@@ -127,7 +127,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    /*background: url("img/texture-paper.png");*/
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -801,7 +801,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(146, 121, 52);
+    background-color: rgba(54,69,119,.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -819,7 +819,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #364577;
 }
 
 .tc-white {
@@ -827,12 +827,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #364577;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #364577!important;
     color: #FFFFFF!important;
 }
 
@@ -845,11 +845,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #364577!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #364577!important;
 }
 
 .icon-dark-slate-blue {
@@ -858,7 +858,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    /*background-image: url("img/dots-bg.png");*/
 }
 
 .bg-lines-h2-bg {
