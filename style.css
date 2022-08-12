@@ -718,7 +718,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #bloc-8 .col-sm-12 p{
@@ -790,7 +790,9 @@ h4 {
 .color-blue{
     color: #364577 !important;
 }
-
+.font-bold{
+    font-weight: bold;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
