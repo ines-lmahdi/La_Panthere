@@ -63,7 +63,7 @@ a:hover {
 
 }
 .color-blue{
-    color: #364577;
+    color: #364577 !important;
 }
 
 .social a{
