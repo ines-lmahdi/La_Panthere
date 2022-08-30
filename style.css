@@ -27,6 +27,19 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/* IMAGE DIMENSION */
+ .img-portofolio{
+    max-width: 570px;
+    max-height: 570px;
+ }
+ .img-logo{
+    max-width: 220px;
+    max-height: 40px;
+ }
+ .img-panthere{
+    max-width: 100px;
+    max-height: 100px;
+ }
 /*MENU D'ACCESSIBILITÉ */
 
 .menu-access{
