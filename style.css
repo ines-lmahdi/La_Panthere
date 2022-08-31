@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/Helvetica.ttf);
+}
 body {
     margin: 0;
     padding: 0;
@@ -603,7 +607,8 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family:'Helvetica', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial;
+    font-display: swap;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -714,9 +719,10 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "Helvetica";
     font-weight: 400;
     color: #575757!important;
+    font-display: swap;
 }
 
 .container {
@@ -752,7 +758,8 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
+    font-family: 'Helvetica'
 }
 
 .cta-hero {

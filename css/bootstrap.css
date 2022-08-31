@@ -5,9 +5,10 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'Helvetica';
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      font-display: swap;
 }
 body {
   margin: 0;
@@ -105,8 +106,9 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Helvetica',monospace, monospace;
   font-size: 1em;
+  font-display: swap;
 }
 button,
 input,
@@ -270,7 +272,8 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Helvetica' 'Glyphicons Halflings';
+  font-display: swap;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -1082,8 +1085,9 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica' "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  font-display: swap;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1184,7 +1188,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Helvetica' inherit;
+  font-display: swap;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1533,6 +1538,7 @@ kbd,
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-display: swap;
 }
 code {
   padding: 2px 4px;
@@ -6037,7 +6043,8 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-display: swap;
   font-size: 12px;
   font-style: normal;
   font-weight: normal;
@@ -6156,7 +6163,8 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-display: swap;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -6424,7 +6432,7 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
-  font-family: serif;
+  font-family: 'Helvetica', serif;
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
