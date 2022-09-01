@@ -985,6 +985,12 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+    .nav-width{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px !important;
+    }
     .site-navigation {
         position: inherit;
         transform: none;
