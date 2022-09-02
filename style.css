@@ -44,7 +44,10 @@ a:hover {
     width: 45%;
     height: 45%;
  }
-
+.no-margin{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 /*MENU D'ACCESSIBILITÉ */
 
 .menu-access{
