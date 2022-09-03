@@ -56,9 +56,9 @@ a:hover {
     z-index: 100;
     width: 100%;
 }
-#menu-access a{
+.menu-access a{
     background-color: #FFFFFF;
-    font-weight: 700;
+    font-weight: bold;
     position: absolute;
     left: 0;
     right: 0;
